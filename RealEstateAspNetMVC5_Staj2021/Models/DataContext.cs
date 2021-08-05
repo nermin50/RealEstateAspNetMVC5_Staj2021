@@ -30,7 +30,7 @@ namespace RealEstateAspNetMVC5_Staj2021.Models
         public DbSet<Neighborhood> neighborhoods { get; set; }
 
 
-#endif
+
 
 
 
