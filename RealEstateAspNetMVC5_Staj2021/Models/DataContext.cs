@@ -14,9 +14,25 @@ namespace RealEstateAspNetMVC5_Staj2021.Models
         {
 
         }
+        
+        // Model ve database ile bağlantı kısmı 
+        // public DbSet<ModelAdı> tabloadı {get; set;}
 
-        public System.Data.Entity.DbSet<RealEstateAspNetMVC5_Staj2021.Models.Status> Status { get; set; }
+        public DbSet<Status> Status { get; set; }
 
-        public System.Data.Entity.DbSet<RealEstateAspNetMVC5_Staj2021.Models.Tip> Tips { get; set; }
+        public DbSet<Tip> Tips { get; set; }
+
+        public DbSet<Advertisement> advertisements { get; set; }
+        public DbSet<AdvPhoto> advPhotos { get; set; }
+        public DbSet<City> cities { get; set; }
+        public DbSet<District> districts { get; set; }
+
+        public DbSet<Neighborhood> neighborhoods { get; set; }
+
+
+#endif
+
+
+
     }
 }
