@@ -14,5 +14,9 @@ namespace RealEstateAspNetMVC5_Staj2021.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<RealEstateAspNetMVC5_Staj2021.Models.Status> Status { get; set; }
+
+        public System.Data.Entity.DbSet<RealEstateAspNetMVC5_Staj2021.Models.Tip> Tips { get; set; }
     }
 }
