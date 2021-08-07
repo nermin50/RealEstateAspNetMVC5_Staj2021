@@ -108,5 +108,12 @@ namespace RealEstateAspNetMVC5_Staj2021.Controllers
         {
             return View();
         }
+
+       public ActionResult LogOut()
+        {
+            var auth = HttpContext.GetOwinContext().Authentication;
+            auth.SignOut();
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
