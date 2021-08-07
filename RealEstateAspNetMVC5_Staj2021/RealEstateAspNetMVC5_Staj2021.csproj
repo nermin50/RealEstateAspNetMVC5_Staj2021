@@ -159,6 +159,8 @@
     </Compile>
     <Compile Include="Identity\ApplicationRole.cs" />
     <Compile Include="Identity\ApplicationUser.cs" />
+    <Compile Include="Identity\IdentityDataContext.cs" />
+    <Compile Include="Identity\IdentityInitializer.cs" />
     <Compile Include="Migrations\202108052115159_InitialCreate.cs" />
     <Compile Include="Migrations\202108052115159_InitialCreate.Designer.cs">
       <DependentUpon>202108052115159_InitialCreate.cs</DependentUpon>
@@ -166,6 +168,10 @@
     <Compile Include="Migrations\202108052140404_Tablolarolusturdu.cs" />
     <Compile Include="Migrations\202108052140404_Tablolarolusturdu.Designer.cs">
       <DependentUpon>202108052140404_Tablolarolusturdu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108072024201_AddIdentityUserRole.cs" />
+    <Compile Include="Migrations\202108072024201_AddIdentityUserRole.Designer.cs">
+      <DependentUpon>202108072024201_AddIdentityUserRole.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Advertisement.cs" />
@@ -249,6 +255,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108052140404_Tablolarolusturdu.resx">
       <DependentUpon>202108052140404_Tablolarolusturdu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108072024201_AddIdentityUserRole.resx">
+      <DependentUpon>202108072024201_AddIdentityUserRole.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
