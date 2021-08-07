@@ -8,7 +8,7 @@ namespace RealEstateAspNetMVC5_Staj2021.Identity
 {
     public class IdentityDataContext : IdentityDbContext<ApplicationUser>
     {
-        public IdentityDataContext() : base("defaultCon")
+        public IdentityDataContext() : base("IdentityConnection")
         {
 
         }
